@@ -1,0 +1,70 @@
+# General
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon[
+]
+
+# Thumbnails
+._*
+
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# Ignore build output
+bin/
+obj/
+[Bb]uild/
+[Ll]og/
+TestResults/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Ignore NuGet packages
+*.nupkg
+*.snupkg
+*.nuspec
+packages/
+*.psess
+*.vsp
+*.vspscc
+*.vssscc
+
+# Ignore Visual Studio files
+.vs/
+*.dbmdl
+*.pidb
+*.svclog
+*.cache
+*.pdb
+
+# Ignore Rider files
+.idea/
+*.DotSettings.user
+
+# Ignore Resharper files
+_ReSharper*/
+*.[Rr]e[Ss]harper
+
+# Ignore coverage reports
+coverage/
+*.coverage
+*.coveragexml
+
+# Ignore publish output
+publish/
