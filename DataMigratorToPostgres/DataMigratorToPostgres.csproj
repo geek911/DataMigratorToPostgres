@@ -4,6 +4,9 @@
     <TargetFramework>net9.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <IsPackable>true</IsPackable>
+
   </PropertyGroup>
 
   <PropertyGroup>
@@ -11,7 +14,7 @@
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
 
     <PackageId>DataMigratorToPostgres</PackageId>
-    <Version>1.0.0</Version>
+    <Version>0.0.1</Version>
     <Authors>Moses Chawawa</Authors>
     <Company></Company>
     <Description>A C# library to migrate data from multiple MSSQL sources to PostgreSQL.</Description>
@@ -31,6 +34,10 @@
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
       <PrivateAssets>all</PrivateAssets>
     </PackageReference>
+    <None Include="README.MD" Pack="true" PackagePath="\"/>
   </ItemGroup>
+  
+  
+  
 
 </Project>
