@@ -1,5 +1,7 @@
 # MSSQL to PostgreSQL Migration Library
 
+[![Buy Me a Coffee](https://img.shields.io/badge/☕-Buy%20me%20a%20coffee-yellow)](https://coff.ee/geek911)
+
 A comprehensive .NET library for migrating data from Microsoft SQL Server to PostgreSQL databases with support for multiple sources, dynamic table creation, and flexible configuration options.
 
 ## Features
